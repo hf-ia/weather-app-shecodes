@@ -1,0 +1,118 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
+/* 
+h1.current-weather-emoticon {
+  display: block;
+  font-size: 60px;
+  position: relative;
+  top: 50px;
+  left: 750px;
+  margin: 0;
+  padding: 0;
+}
+*/
+
+h1.city {
+  position: relative;
+  top: 90px;
+  left: 625px;
+  margin: 0;
+  padding: 0;
+  font-size: 45px;
+}
+
+.card {
+  margin: 35px;
+  border-radius: 35px;
+}
+
+.card.container-everything {
+  background: linear-gradient(
+    111.5deg,
+    rgb(228, 247, 255) 21.9%,
+    rgb(255, 216, 194) 92.2%
+  );
+}
+
+/*i cant get the Temperature at the right position. If i do change its position, 
+the links (change temp) stop working*/
+.currentTemperature {
+  position: relative;
+  line-height: 1px;
+  top: 45px;
+  left: 725px;
+  margin: 0;
+  font-size: 45px;
+}
+
+.days {
+  color: #363434;
+  border: 1px solid #c1c0b9;
+  background: #efecec;
+  border-radius: 30px;
+  margin: 15px;
+  width: 18rem;
+}
+
+.searchDisplay {
+  position: relative;
+  top: 0px;
+  margin-left: 15px;
+  margin-bottom: 40px;
+}
+
+.searchbar {
+  border: 1px solid #c1c0b9;
+  border-radius: 10px;
+  /*  box-shadow: 3px 3px 3px 0.2px #363434; */
+}
+
+.search-button {
+  border-radius: 30px;
+  border: 1px solid #c1c0b9;
+}
+
+.btn-succes {
+  border-radius: 30px;
+  border: 1px solid #c1c0b9;
+  background-color: #efecec;
+}
+
+.card-forcast-today {
+  background-color: #efecec;
+  display: block;
+  position: relative;
+  bottom: 130px;
+  left: 350px;
+}
+
+.today-weather-box-title {
+  text-align: center;
+}
+
+.units {
+  position: relative;
+  /*width: 90px;*/
+  height: 90px;
+  margin: 0;
+  font-size: 25px;
+}
+.links {
+  position: relative;
+  top: 110px;
+  left: 780px;
+}
+
+#current-time {
+  position: relative;
+  top: 100px;
+  left: 687px;
+  margin: 0;
+  font-size: 25px;
+}
+
+#clouds {
+  text-transform: capitalize;
+}
